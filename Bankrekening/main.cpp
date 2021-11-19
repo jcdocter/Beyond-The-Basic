@@ -12,6 +12,10 @@ int main(){
     Transaction transaction2 = Transaction("BIJ ",1000.0f, "8/12/2020");
     Transaction transaction3 = Transaction("AF ",720.35f, "8/12/2020");
 
+    bankAccount.TransactionHistory(transaction1);
+  //  bankAccount.TransactionHistory(transaction2);
+  //  bankAccount.TransactionHistory(transaction3);
+
     bankAccount = bankAccount - transaction1;
     cout << bankAccount << endl;
 
@@ -19,7 +23,7 @@ int main(){
    // cout << bankAccount << endl;
 
    // bankAccount = bankAccount - transaction3;
-   // cout << bankAccount << endl;
+   //cout << bankAccount << endl;
 
     cout << "Uw saldo is: " << bankAccount.GetBalance() << endl;
 }

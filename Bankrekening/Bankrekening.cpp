@@ -27,8 +27,8 @@ BankAccount BankAccount::operator-(const Transaction& transaction) const{
     return BankAccount(balance - transaction.GetAmount());
 }
 
-std::ostream& operator<<(std::ostream& _ostream, BankAccount& _bankAccount){
-    _ostream << _bankAccount
+std::ostream& operator<<(std::ostream& _ostream, const BankAccount& _bankAccount){
+    _ostream << _bankAccount.transactions.data()->GetDate()
              << std::endl;
 
     return _ostream;

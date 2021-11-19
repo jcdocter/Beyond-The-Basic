@@ -14,6 +14,7 @@ class BankAccount{
         const float GetBalance() const;
 
         void TransactionHistory(const Transaction& transaction);
+
         BankAccount operator+(const Transaction& transaction) const;
         BankAccount operator-(const Transaction& transaction) const;
         

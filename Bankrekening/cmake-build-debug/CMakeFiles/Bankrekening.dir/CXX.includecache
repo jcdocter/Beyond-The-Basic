@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/joeyd/Documents/C++BtB/Bankrekening/Bankrekening.cpp
+iostream
+-
+Bankrekening.h
+C:/Users/joeyd/Documents/C++BtB/Bankrekening/Bankrekening.h
+
 C:/Users/joeyd/Documents/C++BtB/Bankrekening/Bankrekening.h
 string
 -
@@ -17,14 +23,4 @@ C:/Users/joeyd/Documents/C++BtB/Bankrekening/Transactie.h
 C:/Users/joeyd/Documents/C++BtB/Bankrekening/Transactie.h
 string
 -
-
-C:/Users/joeyd/Documents/C++BtB/Bankrekening/main.cpp
-iostream
--
-string
--
-Bankrekening.h
-C:/Users/joeyd/Documents/C++BtB/Bankrekening/Bankrekening.h
-Transactie.h
-C:/Users/joeyd/Documents/C++BtB/Bankrekening/Transactie.h
 
