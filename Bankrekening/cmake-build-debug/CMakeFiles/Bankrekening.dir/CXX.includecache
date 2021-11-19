@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/joeyd/Documents/C++BtB/Bankrekening/Bankrekening.h
+string
+-
+Vector
+-
+Transactie.h
+C:/Users/joeyd/Documents/C++BtB/Bankrekening/Transactie.h
+
+C:/Users/joeyd/Documents/C++BtB/Bankrekening/Transactie.h
+string
+-
+
+C:/Users/joeyd/Documents/C++BtB/Bankrekening/main.cpp
+iostream
+-
+string
+-
+Bankrekening.h
+C:/Users/joeyd/Documents/C++BtB/Bankrekening/Bankrekening.h
+Transactie.h
+C:/Users/joeyd/Documents/C++BtB/Bankrekening/Transactie.h
+
