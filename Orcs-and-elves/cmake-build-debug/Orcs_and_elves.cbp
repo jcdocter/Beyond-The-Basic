@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Orcs_and_elves"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Orcs_and_elves">
+				<Option output="C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/cmake-build-debug/Orcs_and_elves.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/.h"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/cmake-build-debug/Makefile&quot;  VERBOSE=1 Orcs_and_elves"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Orcs_and_elves/fast">
+				<Option output="C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/cmake-build-debug/Orcs_and_elves.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/.h"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed"/>
+					<Add directory="C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/cmake-build-debug/Makefile&quot;  VERBOSE=1 Orcs_and_elves/fast"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/.cpp/Decorator.cpp">
+			<Option target="Orcs_and_elves"/>
+		</Unit>
+		<Unit filename="C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/.cpp/Elf.cpp">
+			<Option target="Orcs_and_elves"/>
+		</Unit>
+		<Unit filename="C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/.cpp/Npc.cpp">
+			<Option target="Orcs_and_elves"/>
+		</Unit>
+		<Unit filename="C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/.cpp/Orc.cpp">
+			<Option target="Orcs_and_elves"/>
+		</Unit>
+		<Unit filename="C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/.cpp/RoleDecorator.cpp">
+			<Option target="Orcs_and_elves"/>
+		</Unit>
+		<Unit filename="C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/.cpp/main.cpp">
+			<Option target="Orcs_and_elves"/>
+		</Unit>
+		<Unit filename="C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/.h/Decorator.h">
+			<Option target="Orcs_and_elves"/>
+		</Unit>
+		<Unit filename="C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/.h/Elf.h">
+			<Option target="Orcs_and_elves"/>
+		</Unit>
+		<Unit filename="C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/.h/Npc.h">
+			<Option target="Orcs_and_elves"/>
+		</Unit>
+		<Unit filename="C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/.h/Orc.h">
+			<Option target="Orcs_and_elves"/>
+		</Unit>
+		<Unit filename="C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/.h/RoleDecorator.h">
+			<Option target="Orcs_and_elves"/>
+		</Unit>
+		<Unit filename="C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

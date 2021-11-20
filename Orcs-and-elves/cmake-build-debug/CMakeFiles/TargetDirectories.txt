@@ -1,0 +1,3 @@
+C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/cmake-build-debug/CMakeFiles/Orcs_and_elves.dir
+C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/cmake-build-debug/CMakeFiles/rebuild_cache.dir

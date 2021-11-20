@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../.h/Elf.h
+iostream
+-
+string
+-
+Npc.h
+../.h/Npc.h
+
+../.h/Npc.h
+string
+-
+
+../.h/Orc.h
+iostream
+-
+string
+-
+Npc.h
+../.h/Npc.h
+
+C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/.cpp/main.cpp
+iostream
+-
+Vector
+-
+Npc.h
+C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/.cpp/Npc.h
+Elf.h
+C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/.cpp/Elf.h
+Orc.h
+C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/.cpp/Orc.h
+
