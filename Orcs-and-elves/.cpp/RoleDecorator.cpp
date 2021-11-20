@@ -11,6 +11,6 @@ RoleDecorator::~RoleDecorator() {
 void RoleDecorator::Render() {
     Decorator::Render();
 
-    std::cout << "new role has been added" << std::endl;
+    std::cout << "the roles that i have are: "<< role1 << ", " << role2 << ", " << role3 << std::endl;
 }
 

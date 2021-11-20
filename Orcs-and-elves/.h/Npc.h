@@ -12,7 +12,7 @@ class NPC{
         NPC();
         virtual ~NPC();
 
-        NPC* MakeMonster();
+        static NPC* MakeMonster(NPC* _npc);
 
         virtual void Render() = 0;
 };

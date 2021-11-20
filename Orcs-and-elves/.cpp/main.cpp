@@ -20,8 +20,8 @@ void Render(vector<NPC*> npcs){
 int main(){
     std::vector<NPC*> npcs;
 
-    NPC* npc1 = new Orc();
-    NPC* npc2 = new Elf();
+    NPC* npc1 = NPC::MakeMonster(new Orc());
+    NPC* npc2 = NPC::MakeMonster(new Elf());
 
 
     npcs.push_back(npc1);

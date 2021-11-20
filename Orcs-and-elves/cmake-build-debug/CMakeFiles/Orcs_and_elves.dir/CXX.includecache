@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-../.h/Elf.h
+../.h/Decorator.h
 iostream
 -
 string
@@ -18,23 +18,15 @@ Npc.h
 string
 -
 
-../.h/Orc.h
-iostream
--
+../.h/RoleDecorator.h
 string
 -
-Npc.h
-../.h/Npc.h
-
-C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/.cpp/main.cpp
 iostream
 -
-Vector
--
-Npc.h
-C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/.cpp/Npc.h
-Elf.h
-C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/.cpp/Elf.h
-Orc.h
-C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/.cpp/Orc.h
+Decorator.h
+../.h/Decorator.h
+
+C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/.cpp/RoleDecorator.cpp
+RoleDecorator.h
+C:/Users/joeyd/Documents/C++BtB/Orcs-and-elves/.cpp/RoleDecorator.h
 

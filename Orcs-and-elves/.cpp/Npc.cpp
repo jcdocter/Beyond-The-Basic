@@ -11,11 +11,10 @@ NPC::~NPC() {
 
 }
 
-NPC* NPC::MakeMonster() {
+NPC* NPC::MakeMonster(NPC* _npc) {
     NPC* npc;
 
-    NPC* orc = new RoleDecorator(new Orc());
-    NPC* elf = new RoleDecorator(new Elf());
+    npc = new RoleDecorator(_npc);
 
-    return orc, elf;
+    return npc;
 }

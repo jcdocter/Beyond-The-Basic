@@ -14,7 +14,7 @@ std::string Elf::GetName() {
 }
 
 void Elf::Render() {
-    std::cout << "The name is: " << this->GetName() << " and my role is " << this->role1 << std::endl;
+    std::cout << "The name is: " << this->GetName() << " and my role is " << this->role2 << std::endl;
 }
 
 
