@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/joeyd/Documents/C++BtB/Tamplates/Main.cpp
+iostream
+-
+vector
+-
+Template.h
+C:/Users/joeyd/Documents/C++BtB/Tamplates/Template.h
+
+C:/Users/joeyd/Documents/C++BtB/Tamplates/Template.h
+iostream
+-
+vector
+-
+

@@ -1,0 +1,3 @@
+C:/Users/joeyd/Documents/C++BtB/Tamplates/cmake-build-debug/CMakeFiles/Tamplates.dir
+C:/Users/joeyd/Documents/C++BtB/Tamplates/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/joeyd/Documents/C++BtB/Tamplates/cmake-build-debug/CMakeFiles/rebuild_cache.dir
