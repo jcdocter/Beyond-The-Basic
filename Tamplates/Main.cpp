@@ -14,8 +14,6 @@ T TemplateFunction(T _parameter){
 
 template<typename T>
 void TemplateClass(Template<T> _collector){
-
-    cout << "--------" << endl;
     _collector.Get();
     _collector.Size();
 }
@@ -24,6 +22,7 @@ int main(){
     string stringArrays[] = {"name1", "name2", "name3"};
     float  floatArrays[] = {1.2f, 2.4f, 4.8f};
 
+    // template function
     for(string stringArray : stringArrays){
         TemplateFunction<string>(stringArray);
     }
@@ -31,7 +30,9 @@ int main(){
     for(float floatArray : floatArrays){
         TemplateFunction<float>(floatArray);
     }
+    //end template function
 
+    // template class
     Template<string> collectorString;
     for(string stringArray : stringArrays){
         collectorString.Put(stringArray);
@@ -42,5 +43,6 @@ int main(){
     for(float floatArray : floatArrays){
         collectorFloat.Put(floatArray);
     }
-    TemplateClass(collectorFloat);
+    TemplateClass((collectorFloat));
+
 }
