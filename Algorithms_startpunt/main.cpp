@@ -2,6 +2,7 @@
 #include <vector>
 #include <algorithm>
 #include <functional>
+#include <numeric>
 
 using namespace std;
 
@@ -10,29 +11,25 @@ int main() {
     std::vector<std::string> colours{"red", "green", "white", "blue", "orange", "green", "orange", "black", "purple"};
     // gebruik functies uit <algorithm> en <functional> om (steeds vanuit een ORIGINELE copie van deze vector)
     // 1) de vector in 2 nieuwe vectoren te splitsen: 1 met alles wat alfabetisch voor 'purple' komt, 1 met alles er na
-    vector<string> firstColours;
     vector<string> secondColours;
 
     sort(colours.begin(), colours.end(), [](string a, string b){
         return a < b;
     });
 
+    cout << "first vector: " << endl;
     for(string colour : colours){
-        cout << colour << " ";
+        if(colour < "purple"){
+            cout << colour << endl;;
+        }else{
+            secondColours.push_back(colour);
+        }
     }
-    cout << endl;
 
-    cout << "first vector: ";
-    for(string firstColour : firstColours){
-        cout << firstColour << " ";
-    }
-    cout << endl;
-
-    cout << "second vector: ";
+    cout << "second vector: " << endl;
     for(string secondColour : secondColours){
-        cout << secondColour << " ";
+        cout << secondColour << endl;
     }
-    cout << endl;
 
     {
         cout << endl;
@@ -104,7 +101,14 @@ int main() {
         cout << endl;
         cout << "3) de som, het gemiddelde, en het product van alle getallen te berekenen" << endl;
         std::vector<double> numbers{10, 324422, 6, -23, 234.5, 654.1, 3.1242, -9.23, 635};
+        int multiplier = 1;
         // 3) de som, het gemiddelde, en het product van alle getallen te berekenen
+        double sum = accumulate(numbers.begin(), numbers.end(), 0);
+        double product = accumulate(numbers.begin(), numbers.end(), 1, multiplies<double>());
+
+        cout << "the sum is: " << sum << endl;
+        cout << "the average is: " << sum / numbers.size() << endl;
+        cout << "the product is: " << product << endl;
     }
 
     return 0;
