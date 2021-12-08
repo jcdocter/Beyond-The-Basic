@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/joeyd/Documents/C++BtB/Opdracht-MoveSemanticsBlock_startpunt/Block.cpp
+Block.h
+C:/Users/joeyd/Documents/C++BtB/Opdracht-MoveSemanticsBlock_startpunt/Block.h
+iostream
+-
+
+C:/Users/joeyd/Documents/C++BtB/Opdracht-MoveSemanticsBlock_startpunt/Block.h
+string
+-
+ostream
+-
+
+C:/Users/joeyd/Documents/C++BtB/Opdracht-MoveSemanticsBlock_startpunt/main.cpp
+iostream
+-
+Block.h
+C:/Users/joeyd/Documents/C++BtB/Opdracht-MoveSemanticsBlock_startpunt/Block.h
+
