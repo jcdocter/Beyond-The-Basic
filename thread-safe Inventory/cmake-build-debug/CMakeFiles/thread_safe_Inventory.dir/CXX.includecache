@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/joeyd/Documents/C++BtB/thread-safe Inventory/Inventory.cpp
+Inventory.h
+C:/Users/joeyd/Documents/C++BtB/thread-safe Inventory/Inventory.h
+
+C:/Users/joeyd/Documents/C++BtB/thread-safe Inventory/Inventory.h
+iostream
+-
+vector
+-
+thread
+-
+mutex
+-
+

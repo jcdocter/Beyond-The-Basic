@@ -79,15 +79,15 @@ CMakeFiles/Tamplates.dir/Main.cpp.obj: CMakeFiles/Tamplates.dir/flags.make
 CMakeFiles/Tamplates.dir/Main.cpp.obj: CMakeFiles/Tamplates.dir/includes_CXX.rsp
 CMakeFiles/Tamplates.dir/Main.cpp.obj: ../Main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\joeyd\Documents\C++BtB\Tamplates\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Tamplates.dir/Main.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Tamplates.dir\Main.cpp.obj -c C:\Users\joeyd\Documents\C++BtB\Tamplates\Main.cpp
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Tamplates.dir\Main.cpp.obj -c C:\Users\joeyd\Documents\C++BtB\Tamplates\Main.cpp
 
 CMakeFiles/Tamplates.dir/Main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tamplates.dir/Main.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\joeyd\Documents\C++BtB\Tamplates\Main.cpp > CMakeFiles\Tamplates.dir\Main.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\joeyd\Documents\C++BtB\Tamplates\Main.cpp > CMakeFiles\Tamplates.dir\Main.cpp.i
 
 CMakeFiles/Tamplates.dir/Main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tamplates.dir/Main.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\joeyd\Documents\C++BtB\Tamplates\Main.cpp -o CMakeFiles\Tamplates.dir\Main.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\joeyd\Documents\C++BtB\Tamplates\Main.cpp -o CMakeFiles\Tamplates.dir\Main.cpp.s
 
 # Object files for target Tamplates
 Tamplates_OBJECTS = \
