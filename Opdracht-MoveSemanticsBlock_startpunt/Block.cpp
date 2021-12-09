@@ -70,6 +70,7 @@ Block& Block::operator=(Block&& other) {
         size = other.size;
         data = other.data;
 
+        other.name = "(nodata: has been moved)";
         other.size = 0;
         other.data = nullptr;
     }
