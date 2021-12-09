@@ -26,7 +26,7 @@ class Block {
         Block(Block&& other) noexcept; // move-constructor
         //TODO: move-assignment operator
 #endif
-        Block(Block&& other) noexcept;
+
         Block& operator=(Block&& other);
 
     private:

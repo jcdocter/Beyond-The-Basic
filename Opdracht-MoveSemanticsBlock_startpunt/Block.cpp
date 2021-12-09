@@ -49,18 +49,6 @@ Block::Block(Block&& other) noexcept {
 //TODO: move-assignment operator
 #endif
 
-Block::Block(Block&& other) noexcept {
-    std::cout << "MCTOR from Block '" << other.name << "' @" << &other << " to Block @" << this << std::endl;
-    name = std::move(other.name);
-    data = other.data;
-    size = other.size;
-
-    // 'reset' 't originele object
-    other.name = "(nodata: has been moved)";
-    other.size = 0;
-    other.data = nullptr;
-}
-
 Block& Block::operator=(Block&& other) {
     std::cout << "MAOTOR from block '" << other.name << "' @" << &other << " to Block @" << this << std::endl;
     if(this != &other){
