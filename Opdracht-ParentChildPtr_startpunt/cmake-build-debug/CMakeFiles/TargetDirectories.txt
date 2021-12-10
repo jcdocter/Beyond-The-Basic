@@ -1,0 +1,3 @@
+C:/Users/joeyd/Documents/C++BtB/Opdracht-ParentChildPtr_startpunt/cmake-build-debug/CMakeFiles/ParentChildPtr.dir
+C:/Users/joeyd/Documents/C++BtB/Opdracht-ParentChildPtr_startpunt/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/joeyd/Documents/C++BtB/Opdracht-ParentChildPtr_startpunt/cmake-build-debug/CMakeFiles/rebuild_cache.dir

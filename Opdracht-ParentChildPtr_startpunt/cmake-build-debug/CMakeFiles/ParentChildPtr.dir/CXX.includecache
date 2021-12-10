@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/joeyd/Documents/C++BtB/Opdracht-ParentChildPtr_startpunt/Child.h
+string
+-
+ostream
+-
+
+C:/Users/joeyd/Documents/C++BtB/Opdracht-ParentChildPtr_startpunt/Parent.cpp
+iostream
+-
+Parent.h
+C:/Users/joeyd/Documents/C++BtB/Opdracht-ParentChildPtr_startpunt/Parent.h
+
+C:/Users/joeyd/Documents/C++BtB/Opdracht-ParentChildPtr_startpunt/Parent.h
+string
+-
+ostream
+-
+Child.h
+C:/Users/joeyd/Documents/C++BtB/Opdracht-ParentChildPtr_startpunt/Child.h
+
