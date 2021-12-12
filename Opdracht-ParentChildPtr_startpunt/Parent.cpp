@@ -2,6 +2,7 @@
 #include "Parent.h"
 
 Parent::Parent(std::string name) {
+    std::cout << "CTOR" << std::endl;
     this->name = name;
     std::string childName = "ChildOf" + name;
     this->child = new Child(childName);
@@ -14,7 +15,7 @@ Parent::Parent(const Parent& other) {
 }
 
 Parent::~Parent() {
-    std::cout << "Parent dtor : " << this->name << std::endl;
+    std::cout << "Parent dtor" << std::endl;
     delete this->child;
 }
 
@@ -39,19 +40,17 @@ Parent::Parent(Parent&& other) noexcept {
     other.child = nullptr;
 }
 
-Parent& Parent::operator=(Parent&& other) {
+Parent& Parent::operator=(Parent&& other) noexcept {
     std::cout << "Parent MAOTOR" << std::endl;
 
     if (this != &other){
-        delete[] child;
-
+        // jumps out when it deletes the child
         name = other.name;
         child = other.child;
 
         other.name = ("Data has been moved");
-        child = nullptr;
+        other.child = nullptr;
     }
-
     return *this;
 }
 

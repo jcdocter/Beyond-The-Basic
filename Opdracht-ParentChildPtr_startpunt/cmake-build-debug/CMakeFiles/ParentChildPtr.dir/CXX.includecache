@@ -12,12 +12,6 @@ string
 ostream
 -
 
-C:/Users/joeyd/Documents/C++BtB/Opdracht-ParentChildPtr_startpunt/Parent.cpp
-iostream
--
-Parent.h
-C:/Users/joeyd/Documents/C++BtB/Opdracht-ParentChildPtr_startpunt/Parent.h
-
 C:/Users/joeyd/Documents/C++BtB/Opdracht-ParentChildPtr_startpunt/Parent.h
 string
 -
@@ -25,4 +19,10 @@ ostream
 -
 Child.h
 C:/Users/joeyd/Documents/C++BtB/Opdracht-ParentChildPtr_startpunt/Child.h
+
+C:/Users/joeyd/Documents/C++BtB/Opdracht-ParentChildPtr_startpunt/main.cpp
+iostream
+-
+Parent.h
+C:/Users/joeyd/Documents/C++BtB/Opdracht-ParentChildPtr_startpunt/Parent.h
 

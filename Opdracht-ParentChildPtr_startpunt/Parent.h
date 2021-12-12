@@ -13,7 +13,7 @@ class Parent {
 
 
         Parent(Parent&& other) noexcept;
-        Parent& operator=(Parent&& other);
+        Parent& operator=(Parent&& other) noexcept;
 
         friend std::ostream& operator<<(std::ostream& os, const Parent& parent);
 
